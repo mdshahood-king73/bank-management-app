@@ -1,4 +1,7 @@
 import streamlit as st
+st.write("✅ App started successfully")
+
+import streamlit as st
 from bank import Bank
 
 bank = Bank()
