@@ -1,5 +1,6 @@
 import streamlit as st
 from datetime import datetime
+import uuid
 
 class Bank:
     def __init__(self):
