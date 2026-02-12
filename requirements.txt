@@ -1,2 +1,6 @@
-streamlit
+if "bank" not in st.session_state:
+    st.session_state.bank = Bank()
+
+bank = st.session_state.bank
+
 
