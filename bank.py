@@ -1,4 +1,4 @@
-import uuid
+import streamlit as st
 from datetime import datetime
 
 class Bank:
